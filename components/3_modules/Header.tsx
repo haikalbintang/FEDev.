@@ -11,7 +11,7 @@ const Header = () => {
       <header className="flex justify-between items-center py-2 px-20">
         <Link href={"/test-flashlight"}>
           <Image
-            src={"/HBLogo.png"}
+            src={"/HB_black.png"}
             alt=""
             width={100}
             height={100}
