@@ -36,7 +36,10 @@ const Hero = () => {
 
   return (
     <HeroWrapper id="hero">
-      <div className="flex justify-around gap-16 items-center min-h-screen -mb-20">
+      <p className="text-center font-bold tracking-widest text-white mt-24">
+        ~ Meet me ~
+      </p>
+      <div className="flex justify-around gap-16 items-center min-h-screen -mt-24 -mb-20">
         <div className="cursor-default flex flex-col justify-around items h-full gap-20">
           <div>
             <h1 className={`${anta.className} text-5xl mb-10`}>

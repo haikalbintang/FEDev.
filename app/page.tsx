@@ -11,7 +11,7 @@ import classNames from "classnames";
 
 export default function TestFlashLight() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [flashlightSize, setFlashlightSize] = useState(150);
+  const [flashlightSize, setFlashlightSize] = useState(200);
 
   const MAX_WIDTH = 1280;
 
@@ -26,10 +26,10 @@ export default function TestFlashLight() {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth > MAX_WIDTH) {
-        const newSize = (screenWidth / MAX_WIDTH) * 150;
+        const newSize = (screenWidth / MAX_WIDTH) * 200;
         setFlashlightSize(newSize);
       } else {
-        setFlashlightSize(150);
+        setFlashlightSize(200);
       }
     };
 

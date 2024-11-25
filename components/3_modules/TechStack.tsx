@@ -241,9 +241,10 @@ const TechStack = () => {
         <h2>Familiar: FastAPI, Poetry, pytest</h2>
         <h2>Others: GIMP</h2>
       </Section> */}
+      <p className="text-center font-bold tracking-widest text-white">~~~</p>
       <Section id={"techStack"}>
         <h2 className="text-center text-2xl my-2">Teknologi</h2>
-        <h3 className="text-center text-xl my-2 pt-3">Mahir</h3>
+        <h3 className="text-center text-xl my-2 pt-8">Mahir</h3>
         <div className="flex w-full">
           <div className="flex flex-col w-1/2">
             <h4 className="text-center text-lg my-2">Utama</h4>
@@ -290,7 +291,7 @@ const TechStack = () => {
             </ul>
           </div>
         </div>
-        <h3 className="text-center text-xl my-2 pt-3">Familiar</h3>
+        <h3 className="text-center text-xl my-2 pt-8">Familiar</h3>
         <div className="flex w-full">
           <div className="w-1/6"></div>
           <div className="flex flex-col w-2/3">
@@ -315,6 +316,7 @@ const TechStack = () => {
           <div className="w-1/6"></div>
         </div>
       </Section>
+      <div className="h-20"></div>
     </>
   );
 };

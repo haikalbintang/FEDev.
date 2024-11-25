@@ -7,7 +7,7 @@ interface Props {
 
 const Section = ({ children, id }: Props) => {
   return (
-    <section id={id} className="pt-24 pb-5 relative text-white">
+    <section id={id} className="pt-24 relative text-white">
       {children}
     </section>
   );
